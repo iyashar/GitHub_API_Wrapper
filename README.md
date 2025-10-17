@@ -30,13 +30,14 @@
 ```bash
 git clone https://github.com/your-username/github-api-wrapper.git
 cd github-api-wrapper
+```
 
 ### مرحله 2: نصب نیازمندی ها
-
+```bash
 pip install -r requirements.txt
-
+```
 ### مرحله 3: اجرای برنامه
-
+```bash
 # روش ۱: مستقیم
 python github_api.py
 
@@ -45,8 +46,10 @@ uvicorn github_api:app --reload --host 0.0.0.0 --port 8000
 
 # روش ۳: با فایل اجرایی
 python run.py
+```
 
 ### مرحله ۴: بررسی اجرای برنامه
-
+```bash
 بروید به: http://localhost:8000
 
+```
